@@ -8,12 +8,11 @@
  */
 use Flarum\Extend;
 use Flarum\Settings\SettingsRepositoryInterface;
-use Flarum\Settings\Event\Saving;
 use Illuminate\Contracts\Container\Container;
 
 $settings = app(SettingsRepositoryInterface::class);
 $lang = $settings->get('flarumes.mode');
-$mode = empty($lang) ? 'es-ES-informal' : $lang;
+$mode = empty($lang) ? 'es-ES-formal' : $lang;
 
 return [
     (new Extend\Frontend('admin'))
@@ -49,7 +48,7 @@ class SwitchLanguageEvent
 
     private function setLanguage($lang = null)
     {
-        $mode = empty($lang) ? 'es-ES-informal' : $lang;
+        $mode = empty($lang) ? 'es-ES-formal' : $lang;
         new Flarum\Extend\LanguagePack('/locale/' . $mode . '/');
         $this->container->make('flarum.locales')->clearCache();
     }

@@ -12,4 +12,3 @@ fof-user-bio:
       bioLimit: 'Límite de caracteres de la biografía'
   forum:
     userbioPlaceholder: 'Escribe algo sobre ti'
-    userbioPlaceholderOtherUser: 'Escribe un biografía para {username}'

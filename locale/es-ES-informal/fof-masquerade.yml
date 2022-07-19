@@ -30,9 +30,12 @@ fof-masquerade:
       validation: Validación
       validation-help: "Consulta las <a>reglas de validación de Laravel</a>. Ej: \"string|min:5\" o \"url\".\n"
     general-options: Configuración
+    menu:
+      description: "Configurar campos de perfil de usuario.\n"
     permissions:
       have-profile: 'Tener perfil masquerade'
       view-profile: 'Ver perfil masquerade'
+    title: Masquerade
     types:
       advanced: Avanzado
       boolean: Checkbox
@@ -41,7 +44,6 @@ fof-masquerade:
       url: URL
   forum:
     alerts:
-      profile-completed: '¡Perfil completo! <a>Volver a la página principal</a>'
       profile-completion-required: "Por favor completa los campos del perfil de usuario.\n"
     buttons:
       save-profile: Guardar

@@ -1,38 +1,38 @@
 {
-    "name": "flarum-lang/spanish",
+    "name": "arthurydalgo/lang-spanish",
     "type": "flarum-extension",
-    "description": "Spanish Language Pack.",
-    "keywords": ["extension", "flarum", "language", "locale", "spanish", "translation"],
+    "homepage": "https://github.com/arthurydalgo/lang-spanish",
+    "description": "Spanish language pack.",
+    "keywords": ["flarum","locale","spanish"],
     "license": "MIT",
     "authors": [
         {
-            "name": "FlarumES",
-            "email": "hola@flarum.es",
-            "homepage": "https://flarum.es"
+            "name": "arthurydalgo",
+            "email": "arthurydalgo@gmail.com",
+            "homepage": "https://arthurydalgo.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/flarum-lang/spanish/issues",
-        "source": "https://github.com/flarum-lang/spanish",
-        "forum": "https://flarum.es",
-        "docs": "https://flarum.es/p/7-docs"
+        "issues": "https://github.com/arthurydalgo/lang-spanish/issues",
+        "source": "https://github.com/arthurydalgo/lang-spanish",
+        "forum": "https://arthurydalgo.com"
     },
     "require": {
-        "flarum/core": "^1.2.0"
+        "flarum/core": "^0.1.0-beta.10"
     },
     "replace": {
-        "flarumes/lang-spanish": "*"
+        "arthurydalgo/flarum-ext-spanish": "*"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.x-dev"
+            "dev-master": "0.1.x-dev"
     },
         "flarum-extension": {
             "title": "Spanish",
             "category": "language",
             "info": {
-                "website": "https://flarum.es",
-                "support": "https://github.com/flarum-lang/spanish/issues"
+                "website": "https://arthurydalgo.com",
+                "support": "https://github.com/arthurydalgo/lang-spanish/issues"
             },
             "icon": {
                 "image": "icon.svg",

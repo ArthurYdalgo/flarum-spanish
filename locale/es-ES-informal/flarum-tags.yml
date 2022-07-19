@@ -38,16 +38,18 @@ flarum-tags:
       about_tags_text: 'Las etiquetas se utilizan para organizar las discusiones. Las etiquetas principales son para clasificar las discusiones (p. ej. por temática) y pueden ordenarse y organizarse jerárquicamente en dos niveles. Las etiquetas secundarias no tienen orden ni jerarquía y son útiles para la micro organización.'
       create_primary_tag_button: 'Crear etiqueta principal'
       create_secondary_tag_button: 'Crear etiqueta secundaria'
+      create_tag_button: '=> flarum-tags.ref.create_tag'
       primary_heading: 'Etiquetas principales'
       secondary_heading: 'Etiquetas secundarias'
+      settings_button: Ajustes
       settings_heading: Ajustes
   forum:
     all_tags:
       meta_description_text: 'Todas las etiquetas'
       meta_title_text: '=> flarum-tags.ref.tags'
     choose_tags:
-      choose_primary_placeholder: '{count, plural, one {Elige una etiqueta principal} other {Elige # etiquetas primarias}}'
-      choose_secondary_placeholder: '{count, plural, one {Elige 1 etiqueta más} other {Elige # más etiquetas}}'
+      choose_primary_placeholder: 'Elige una etiqueta principal|Elige {count} etiquetas principales'
+      choose_secondary_placeholder: 'Elige una etiqueta más|Elige {count} etiquetas más'
       edit_title: 'Editar las etiquetas para ''{title}'''
       submit_button: '=> core.ref.okay'
       title: 'Elige las etiquetas para su discusión'
@@ -62,14 +64,15 @@ flarum-tags:
       tags_link: '=> flarum-tags.ref.tags'
       untagged_link: 'Sin etiqueta'
     post_stream:
-      added_and_removed_tags_text: '{username} puso {tagsAdded} y quitó {tagsRemoved}'
-      added_tags_text: '{username} puso {tagsAdded}'
+      added_and_removed_tags_text: '{username} puso {tagsAdded} y quitó {tagsRemoved}.'
+      added_tags_text: '{username} puso {tagsAdded}.'
       removed_tags_text: '{username} quitó {tagsRemoved}.'
-      tags_text: '{count, plural, one {la etiqueta {tags}} other {las etiquetas {tags}}}'
+      tags_text: 'la etiqueta {tags}|las etiquetas {tags}'
     tag:
       meta_description_text: 'Todas las discusiones con la etiqueta {tag}'
   lib:
     deleted_tag_text: Borrada
   ref:
+    create_tag: 'Crear etiqueta'
     name: Nombre
     tags: Etiquetas
